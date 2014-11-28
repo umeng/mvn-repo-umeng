@@ -1,3 +1,11 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+
+
 # Built application files
 *.apk
 *.ap_
@@ -12,9 +20,31 @@
 bin/
 gen/
 
-# Gradle files
+# Gradle files # Android Studio
 .gradle/
 build/
+.idea/
+#gradle
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+
+# Eclipse project files
+.classpath
+.project
+
+
+
+
+
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,3 +54,5 @@ proguard/
 
 # Log Files
 *.log
+
+
